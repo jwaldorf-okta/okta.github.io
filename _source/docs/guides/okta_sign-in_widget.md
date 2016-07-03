@@ -368,7 +368,9 @@ future versions of the Okta Sign-In Widget.
 Below is some example CSS, which will give you an idea of how you
 can style the Okta Sign-In Widget. You can try out this CSS yourself
 by copying the `<style>` tag below into the `<head>` section of
-the `login-to-okta.html` file that you created above.
+the `login-to-okta.html` file that you created above.  Be sure to
+place it below the link portions so that your style overwrites
+the okta default.
 
 ~~~ html
 <style>
